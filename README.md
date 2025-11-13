@@ -63,13 +63,10 @@ $dbname = "jobcompass";
 $conn = new mysqli($host, $user, $pass, $dbname);
 Step 6: Run in Browser
 Visit:
-
-
 http://localhost/jobcompass/
 You can now register, log in, and explore the dashboard, jobs, and resources pages.
 
-Folder Structure
-
+Folder Structure:
 jobcompass/
 ├─ pages/
 │  ├─ register.php        # User registration
@@ -84,7 +81,7 @@ jobcompass/
 ├─ styles.css             # Global styles
 ├─ seed.sql               # Tables and test data
 
-Code Organization
+Code Organization:
 server.php – Handles register/login logic and can later be extended to connect with AI or external APIs.
 db.php – Centralized database connection for easier migration to cloud or ORM.
 pages/ – Contains all feature pages in a modular format.
@@ -92,7 +89,7 @@ seed.sql – Includes initial data for quick testing.
 
 This modular structure allows backend enhancements or AI integrations without breaking the current system.
 
-Seed Data Usage
+Seed Data Usage=
 seed.sql includes:
 
 One demo user
@@ -106,20 +103,21 @@ Password: demo123
 
 This allows you to explore all existing modules and test navigation.
 
-Environment Configuration
-Setting	Value
-PHP Version	≥ 8.0
-Database	MySQL (via XAMPP)
-Localhost URL	http://localhost/jobcompass/
-Database Name	jobcompass
-Charset	utf8mb4
+Environment Configuration:
+| Setting       | Value                          |
+| ------------- | ------------------------------ |
+| PHP Version   | ≥ 8.0                          |
+| Database      | MySQL (via XAMPP)              |
+| Localhost URL | `http://localhost/jobcompass/` |
+| Database Name | `jobcompass`                   |
+| Charset       | utf8mb4                        |
 
 If your MySQL setup has a password, update it in db.php.
 
-Future Enhancements (Phase 2)
+Future Enhancements (Phase 2):
 The system has been structured for easy integration of intelligent and user-friendly features in the next phase.
 
-How the Current Design Supports Expansion
+How the Current Design Supports Expansion:
 Tables jobs and resources already store skill data in structured fields, which can easily feed future logic.
 
 The PHP structure is modular, allowing new features (Career Chat, AI APIs, or Resume Analyzer) to be added as independent modules.
