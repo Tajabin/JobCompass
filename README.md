@@ -31,8 +31,6 @@ It is designed with modular PHP and MySQL architecture so that AI-based recommen
 Copy the project to your XAMPP directory:
 C:\xampp\htdocs\jobcompass
 
-markdown
-Copy code
 
 ### Step 2: Start XAMPP
 1. Launch **XAMPP Control Panel**  
@@ -43,8 +41,7 @@ Copy code
 2. Create a new database named:
 jobcompass
 
-bash
-Copy code
+
 
 ### Step 4: Import Sample Data
 1. Select the `jobcompass` database  
@@ -67,14 +64,12 @@ $conn = new mysqli($host, $user, $pass, $dbname);
 Step 6: Run in Browser
 Visit:
 
-arduino
-Copy code
+
 http://localhost/jobcompass/
 You can now register, log in, and explore the dashboard, jobs, and resources pages.
 
 Folder Structure
-bash
-Copy code
+
 jobcompass/
 ├─ pages/
 │  ├─ register.php        # User registration
@@ -88,6 +83,7 @@ jobcompass/
 ├─ index.php              # Landing page
 ├─ styles.css             # Global styles
 ├─ seed.sql               # Tables and test data
+
 Code Organization
 server.php – Handles register/login logic and can later be extended to connect with AI or external APIs.
 db.php – Centralized database connection for easier migration to cloud or ORM.
@@ -100,17 +96,14 @@ Seed Data Usage
 seed.sql includes:
 
 One demo user
-
 Example job listings across skill categories
-
 Sample learning resources
 
 You can log in using:
 
-makefile
-Copy code
 Email: demo@jobcompass.com
 Password: demo123
+
 This allows you to explore all existing modules and test navigation.
 
 Environment Configuration
@@ -124,22 +117,7 @@ Charset	utf8mb4
 If your MySQL setup has a password, update it in db.php.
 
 Future Enhancements (Phase 2)
-The system has been structured for easy integration of intelligent and user-friendly features in the next phase. Planned enhancements include:
-
-1. Career Chat
-A built-in chat assistant that provides career advice and learning suggestions in both Bangla and English.
-It will use a local knowledge base (MySQL table) to simulate AI behavior without requiring external APIs.
-
-2. Skill Goals Tracker
-Allows users to set personal learning or career goals, define completion dates, and track progress through an interactive dashboard.
-
-3. Resume Analyzer
-Users can upload resumes (PDF or text) for automated skill detection.
-The system will identify keywords and recommend suitable jobs based on extracted skills.
-
-4. Bangla-English Language Support
-Adds multilingual capability across the platform.
-Users can switch between English and Bangla, making JobCompass more accessible to Bangladeshi users.
+The system has been structured for easy integration of intelligent and user-friendly features in the next phase.
 
 How the Current Design Supports Expansion
 Tables jobs and resources already store skill data in structured fields, which can easily feed future logic.
