@@ -1,0 +1,9 @@
+body { font-family: Arial, sans-serif; background:#f4f7fb; color:#222; margin:0; padding:20px;}
+.form-container {max-width:420px; margin:40px auto; background:#fff; padding:20px; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.06)}
+.form-container input, .form-container select, .form-container textarea {width:100%; padding:10px; margin:8px 0; border:1px solid #ddd; border-radius:4px;}
+button {padding:10px 14px; border:none; border-radius:6px; background:#0366d6; color:#fff; cursor:pointer;}
+.container {max-width:1000px; margin:20px auto;}
+.card {background:#fff; padding:16px; margin-bottom:12px; border-radius:8px; box-shadow:0 4px 12px rgba(0,0,0,0.04)}
+.nav {margin-bottom:14px;}
+.job, .resource {padding:8px 0; border-bottom:1px dashed #eee}
+.skill-item {margin-bottom:8px;}
