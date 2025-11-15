@@ -142,6 +142,9 @@ Compares user skills with job requirements or target role and shows missing skil
 AI-Generated Career Roadmap
 Automatically creates a personalized learning roadmap based on user skills, target job role, and timeframe.
 
+Career Bot
+ai generated chat bot
+
 Developed By
 Team CivivSentinel – Hackathon Project 2025
 Built using PHP, MySQL, and XAMPP.
