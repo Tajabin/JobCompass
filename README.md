@@ -125,6 +125,22 @@ The PHP structure is modular, allowing new features (Career Chat, AI APIs, or Re
 The database schema is clean and extendable for analytics or ML integration.
 
 Frontend layout uses basic HTML/CSS for easy enhancement into responsive or dynamic components later.
+Future Enhancements (Phase 2)
+
+The system has been structured for easy integration of intelligent and user-friendly features in the next phase.
+
+✔ Newly Added Features
+
+These features have already been implemented in the current version:
+
+Smart Skill Extraction (NLP-based)
+Extracts skills from user profile or CV and maps them to known skill categories.
+
+Skill Gap Analysis
+Compares user skills with job requirements or target role and shows missing skills.
+
+AI-Generated Career Roadmap
+Automatically creates a personalized learning roadmap based on user skills, target job role, and timeframe.
 
 Developed By
 Team CivivSentinel – Hackathon Project 2025
